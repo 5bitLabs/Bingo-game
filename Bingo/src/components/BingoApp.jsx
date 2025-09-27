@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { UserCircle, Grid, ArrowRight, Trophy, Hash, RotateCw, Edit, Plus, Heart, ArrowLeftRight, Clock } from 'lucide-react';
 import io from 'socket.io-client';
 
-const socket = io('https://bingo-game-qqi9.onrender.com');
+const socket = io('https://bingo-game-qqi9.onrender.com','https://bingo-game-gs9f.onrender.com');
 
 // Helper to generate random bingo card
 const generateRandomCard = () => {
